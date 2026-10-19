@@ -1,3 +1,5 @@
+![banner](docs/banner.jpg)
+
 # wireguard — a Hermes plugin for a local WireGuard server
 
 Read-only status and peer list for a WireGuard server running on the
