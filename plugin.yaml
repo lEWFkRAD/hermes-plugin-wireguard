@@ -1,0 +1,9 @@
+name: wireguard
+version: "0.1.0"
+description: "Read-only status and peer list for a WireGuard server running on the same Windows machine as Hermes. v1 never changes the tunnel: no service control, no peer changes, and it never reads the tunnel configuration file or any private key material."
+author: "LewfKrad"
+kind: standalone
+requires_hermes: ">=0.21.3"
+provides_tools:
+  - vpn_status
+  - vpn_peers
